@@ -1,0 +1,39 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 53acbc2b-0e04-4784-bcfe-5d25a15b72cf
+  title: Programmering for undervisning
+  # description:
+  # keywords: []
+  # authors: [Sigurd Rage, Viggo T. Andersen]
+  # github: code-USN/usnprogrammering
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: index.ipynb
+    - title: Om nettsiden
+      children:
+        - file: om_nettstedet/hvordan-bruke-sidene.ipynb
+        - file: om_nettstedet/stilgaid.ipynb
+    - title: Matematikk
+      children:
+        - file: matematikk/Matematikk-oversikt.ipynb
+        - file: matematikk/Likheter-ulikheter-betingelser.ipynb
+        - file: matematikk/Andregradsfunksjonskalkulator.ipynb
+        - file: matematikk/Tabeller-funksjoner-plotting.ipynb
+        - file: matematikk/Funksjonsanalyse-i-python.ipynb
+        - file: matematikk/Numerisk-integral.ipynb
+        - file: matematikk/Simulering av radioaktiv nedbrytning.ipynb
+        - file: matematikk/Geometri-plotting.ipynb
+        - file: matematikk/Lister-og-tabeller.ipynb
+    - title: Naturfag
+      children:
+        - file: naturfag/Naturfag-oversikt.ipynb
+        - file: naturfag/microbit-automatisk-vanning.ipynb
+    
+site:
+  template: book-theme
+  options:
+      favicon: images/USN-symbol_sort.png
+      logo: images/USN-logo_sort-norsk.png
+      logo_dark: images/USN-logo_hvit.png
+      logo_text: Programmering for undervisning

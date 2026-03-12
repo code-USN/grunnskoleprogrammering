@@ -1,0 +1,20 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 53acbc2b-0e04-4784-bcfe-5d25a15b72cf
+  title: Programmering for grunnskolen
+  # description:
+  # keywords: []
+  # authors: [Sigurd Rage, Viggo T. Andersen]
+  # github: code-USN/usnprogrammering
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: index.ipynb
+    
+site:
+  template: book-theme
+  options:
+      favicon: images/USN-symbol_sort.png
+      logo: images/USN-logo_sort-norsk.png
+      logo_dark: images/USN-logo_hvit.png
+      logo_text: Programmering for undervisning
