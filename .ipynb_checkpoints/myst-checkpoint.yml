@@ -10,12 +10,20 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: index.ipynb
+    - file: enkel-python/enkel-python.ipynb
+      children:
+        - file: enkel-python/01-variabler-og-operatorer.ipynb
+        - file: enkel-python/02-betingelser.ipynb
+        - file: enkel-python/03-loekker.ipynb
+        - file: enkel-python/04-lister-tabeller.ipynb
+        - file: enkel-python/05-funksjoner.ipynb
+        - file: enkel-python/06-biblioteker.ipynb
     - file: 6-trinn/6-trinn-oversikt.ipynb
       children:
         - file: 6-trinn/Geometrikalkulator.ipynb
-    - file: 8-trinn/8-trinn-oversikt
-    - file: 9-trinn/9-trinn-oversikt
-    - file: 10-trinn/10-trinn-oversikt
+    - file: 8-trinn/8-trinn-oversikt.ipynb
+    - file: 9-trinn/9-trinn-oversikt.ipynb
+    - file: 10-trinn/10-trinn-oversikt.ipynb
     
 site:
   template: book-theme
