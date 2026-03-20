@@ -21,6 +21,7 @@ project:
     - file: 6-trinn/6-trinn-oversikt.ipynb
       children:
         - file: 6-trinn/Geometrikalkulator.ipynb
+    - file: 7-trinn/7-trinn-oversikt.ipynb
     - file: 8-trinn/8-trinn-oversikt.ipynb
     - file: 9-trinn/9-trinn-oversikt.ipynb
     - file: 10-trinn/10-trinn-oversikt.ipynb
