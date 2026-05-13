@@ -18,6 +18,7 @@ project:
         - file: enkel-python/04-lister-tabeller.ipynb
         - file: enkel-python/05-funksjoner.ipynb
         - file: enkel-python/06-biblioteker.ipynb
+    - file: 1-2-trinn/1-2-trinn-oversikt.ipynb
     - file: 6-trinn/6-trinn-oversikt.ipynb
       children:
         - file: 6-trinn/Geometrikalkulator.ipynb
