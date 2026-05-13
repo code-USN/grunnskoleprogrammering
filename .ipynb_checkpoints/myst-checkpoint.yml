@@ -23,6 +23,13 @@ project:
         - file: 1-2-trinn/Eksempel-1-vaske-hender.ipynb
         - file: 1-2-trinn/Eksempel-2-brannovelse.ipynb
         - file: 1-2-trinn/Eksempel-3-innmarsj.ipynb
+    - file: 3-trinn/3-trinn-oversikt.ipynb
+      children:
+        - file: 3-trinn/Eksempel-1-skattekart.ipynb
+        - file: 3-trinn/Eksempel-2-skattekart-skolegarden.ipynb
+        - file: 3-trinn/Eksempel-3-geo-matte.ipynb
+    - file: 4-trinn/4-trinn-oversikt.ipynb
+    - file: 5-trinn/5-trinn-oversikt.ipynb
     - file: 6-trinn/6-trinn-oversikt.ipynb
       children:
         - file: 6-trinn/Geometrikalkulator.ipynb
